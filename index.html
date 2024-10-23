@@ -8,8 +8,11 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('indexpage.jpeg'); /* قم بتغيير هذا إلى رابط الصورة التي تريد استخدامها */
+            background-image: url('indexpage.jpeg') no-repeat center center fixed; /* قم بتغيير هذا إلى رابط الصورة التي تريد استخدامها */
             background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
             background-position: center;
             color: #fff;
             text-align: center;
@@ -20,10 +23,6 @@
             align-items: center;
         }
 
-        h1 {
-            font-size: 48px; /* حجم الخط للنص */
-            margin: 20px 0;
-        }
 
         button {
             background-color: #1877f2;
@@ -41,7 +40,6 @@
     </style>
 </head>
 <body>
-    <h1>مرحبًا بكم في تطبيق الجامعة</h1>
     <a href="login.html">
         <button>Start</button>
     </a>
